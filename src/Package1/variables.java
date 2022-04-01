@@ -1,3 +1,4 @@
+package Package1;
 
 public class variables {
 	
@@ -12,7 +13,10 @@ public class variables {
 		
 		System.out.println(var.collegename);
 		
+		System.out.println(Student.collegename);
 		
+		Student student1=new Student();
+		System.out.println(student1.rollno);
 		
 		
 	}

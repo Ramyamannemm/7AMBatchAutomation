@@ -1,3 +1,4 @@
+package Package1;
 
 public class Student {
 	
@@ -6,7 +7,9 @@ public class Student {
 	
 	
 	public static void main(String[] args) {
+		final int age = 0; //local variable
 		// TODO Auto-generated method stub
+		System.out.println(age);
 		Student Suresh=new Student();
 		Suresh.rollno=2;
 		Suresh.collegename="JNTU";
@@ -21,6 +24,15 @@ public class Student {
 		System.out.println("Ramesh college" + Ramesh.collegename);
 		
 
+	}
+	
+	
+	public void method()
+	{
+		String name = "Ramya"; //local var
+		System.out.println(name);
+		
+		
 	}
 
 }
