@@ -10,13 +10,21 @@ public class OneDimensionArrays {
            int [] rollnoarray=new int[10]; //declare an array
            String [] schollgrups= {"Red", "yellow", "blue"}; //static initialization
            System.out.println(schollgrups.length);
-           for(int i=0;i<rollnoarray.length;i++) {
+           for(int i=0;i<rollnoarray.length;i++) {    //i->0->1->2->3..........9->10
         	 
+        	   if(i==5)
+         	  {
+         		  continue;
+         	  }
         	  rollnoarray[i]= Randomvalue();
         	  System.out.println(rollnoarray[i]);
+        	  
+        	  
         	   
         	   
            }
+           
+           System.out.println("came out of the for loop");
            
 	}
 	
