@@ -5,8 +5,8 @@ public class Overloading {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
        Overloading overload=new Overloading();
-		System.out.println(sum());
-		System.out.println(sum(3,4));
+		//System.out.println(sum());
+		//System.out.println(sum(3,4));
 		overload.sum(4);
 		
 	}
@@ -19,16 +19,17 @@ public class Overloading {
 		return a+b;
 	}
 	
-	public static int sum(int a,int b)
+	public static void sum(float a)
 	{
-		return a+b;
+		System.out.println("float method");
 		
 	}
 	
-	public void sum(int a)
+	public static void sum(double b)
 	{
-		int b=5;
-		System.out.println(a+b);
+		System.out.println("double method");
 	}
+	
+	
 
 }
